@@ -12,8 +12,3 @@ EXPOSE 8080
 
 # 启动 Tomcat
 CMD ["catalina.sh", "run"]
-
-FROM mysql:5.7
-ENV MYSQL_DATABASE=mydatabase
-ENV MYSQL_ROOT_PASSWORD=my-secret-password
-EXPOSE 3306
